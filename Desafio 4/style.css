@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-cabeçalho-moda: #BB86FC;
+    --cor-cabeçalho-casa: #00C4B4;
+    --cor-fundo-valores-tabela: #424250;
+}
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor-cabeçalho-moda), var(--cor-fundo-valores-tabela) );
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title{
+    text-align: center;
+    margin: 20px;
+    font: bold 2.3em 'Segoe UI';
+}
+
+.table-products {
+    padding: 30px;
+    margin: 10px;
+    width: 29.3%;
+}
+
+.title-first-table{
+    margin: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.title-second-table{
+    margin: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.table-moda{
+    background-color: white;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.356);
+}
+
+.table-moda th{
+    background-color: var(--cor-cabeçalho-moda);
+    padding: 5px;
+    font-weight: bold;
+
+}
+
+.table-moda td{
+    background-color: var(--cor-fundo-valores-tabela);
+    padding: 7px;
+}
+
+.table-house {
+    background-color: white;
+    width: 225px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.356);
+}
+
+.table-house th{
+    background-color: var(--cor-cabeçalho-casa);
+    padding: 5px;
+    font-weight: bold;
+}
+
+.table-house td{
+    background-color: var(--cor-fundo-valores-tabela);
+    padding: 7px;
+}
